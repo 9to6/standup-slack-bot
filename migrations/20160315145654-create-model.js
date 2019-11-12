@@ -41,6 +41,10 @@ module.exports = {
         latestReport: {
           type: Sequelize.STRING,
           defaultValue: null
+        },
+        postUpdatesInChannel: {
+          type: Sequelize.BOOLEAN,
+          defaultValue: false
         }
       }
     ).then(function() {
