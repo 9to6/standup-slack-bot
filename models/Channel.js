@@ -48,7 +48,7 @@ module.exports = function (sequelize, DataTypes) {
     },
     postUpdatesInChannel: {
       type: DataTypes.BOOLEAN,
-      defaultValue: false
+      defaultValue: true
     }
   });
 
